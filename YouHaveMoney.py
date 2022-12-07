@@ -6,7 +6,7 @@ answer = YouHaveMoney()
 
 print("\nВыбирайте цифру для ответа на вопрос!")
 
-ask1 = input(f"\nУ вас есть деньги?? \n1 - Да\n2 - Нет\n3 - Не для {purchase}\n>>> ")
+ask1 = input(f"\nУ вас есть деньги?? \n1 - Да\n2 - Нет\n3 - Нет для {purchase}\n>>> ")
 if ask1 == "1":
 	print(f"\n{answer}")
 elif ask1 == "2":
